@@ -28,7 +28,7 @@ public class AuthenticationTest {
 	public void testWrongUserLogin() {
 		Authentication authentication = new Authentication();
 		
-		assertEquals(false, authentication.login("userB", "passB"));
+		assertEquals(false, authentication.login("NEWUSER", "NEWPASSWORD"));
 	}
 
 	@Test
